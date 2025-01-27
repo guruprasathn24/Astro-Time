@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #7a6464 !important;
+    color: #F0F0F0;
+    min-height: 100vh; 
+    margin-top: 80px;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 0.5rem 2rem;
+    z-index: 1000;
+    background-color: #111 !important;
+    border-bottom: 2px solid #444;
+}
+
+#pn {
+    color: #FF5733 !important;
+    font-size: 30px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link {
+    color: #F0F0F0 !important;
+    border-bottom: 2px transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #FF5733;
+}
+
+#bmn {
+    background-color: #FF5733;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+#bmn:hover {
+    background-color: #e74c3c;
+}
+
+.container {
+    margin-top: 100px;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-label {
+    color: #343a40;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.form-control, 
+.form-select {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus, 
+.form-select:focus {
+    border-color: #FF5733;
+    box-shadow: 0 0 5px rgba(255, 87, 51, 0.5);
+}
+
+.btn-primary {
+    background-color: #FF5733;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e74c3c;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .container {
+        margin-top: 120px;
+        padding: 15px;
+    }
+}

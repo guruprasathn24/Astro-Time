@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; 
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-photo/futuristic-time-machine_23-2151599397.jpg?semt=ais_hybrid');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #F0F0F0;
+    min-height: 100vh; 
+}
+
+#nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 2rem;
+    z-index: 1000;
+    background-color: rgba(10, 10, 10, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+#pn {
+    color: #FF5733 !important;
+    font-size: 30px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link {
+    color: #F0F0F0;
+    border-bottom: 2px transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #dc6e56;
+}
+
+#bmn {
+    background-color: #FF5733;
+    border-radius: 15px;
+}
+
+section {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+#h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    width: 100%; 
+}
+
+#h h1 {
+    font-size: 100px;
+    color: #FF5733;
+    font-weight: bolder;
+    text-shadow: 0px 1px 0px #FF5733,
+                 0px 2px 0px #FF5733,
+                 0px 3px 0px #FF5733,
+                 0px 4px 0px #FF5733;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#bt{
+    margin-left: 220px;
+    background-color: #ff7b5d;
+    text-decoration: none;
+    color: #F0F0F0;
+    transition: trasform.28s;
+}
+#bt:hover{
+    background-color: #fa0d0d;
+    transform: scale(1.2);
+    color: #fa0d0d;
+}
